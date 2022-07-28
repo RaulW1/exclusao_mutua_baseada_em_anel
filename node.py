@@ -16,8 +16,8 @@ def use_rc(pid, token):
         print(e)
 
 # ----- NODES -----
-def nodes(pid, p_qtd, port, host, n_iter):
-    if pid == p_qtd-1:
+def nodes(pid, n_qtd, port, host, n_iter):
+    if pid == n_qtd-1:
         next_port = port-pid # aponta para o inicio do anel
     else:
         next_port = port + 1 # aponta para o proximo node no anel
