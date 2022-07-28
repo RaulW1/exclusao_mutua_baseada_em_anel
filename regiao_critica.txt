@@ -1,0 +1,2 @@
+Processo 1 esteve aqui em 15:17:15 com o token: 1
+Processo 0 esteve aqui em 15:17:21 com o token: 2
